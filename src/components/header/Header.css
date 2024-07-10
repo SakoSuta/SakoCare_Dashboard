@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+  
+  .headerLogo img {
+    height: 45px;
+    margin-left: 20px;
+  }
+  
+  .headerNav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .headerNav a {
+    text-decoration: none;
+    color: var(--Black);
+    font-weight: bold;
+  }
+
+  .headerLabel {
+    font-size: 16px;
+    font-family: 'Azeret Mono', monospace ;
+    font-weight: 400;
+    color: var(--second);
+  }
+  
+  .headerDownload button {
+    background-color: var(--background-element);
+    color: var(--black);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: 'Azeret Mono', monospace ;
+    font-weight: 400;
+    box-shadow: 5px 5px var(--primary);
+  }
+  
+  .headerDownload button:hover {
+    background-color: var(--second);
+  }
+  
