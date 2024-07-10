@@ -33,7 +33,7 @@
   }
   
   .headerDownload button {
-    background-color: var(--background-element);
+    background-color: var(--primary);
     color: var(--black);
     border: none;
     padding: 10px 20px;
@@ -42,10 +42,40 @@
     margin-right: 20px;
     font-family: 'Azeret Mono', monospace ;
     font-weight: 400;
-    box-shadow: 5px 5px var(--primary);
+    box-shadow: 5px 5px var(--black);
   }
   
   .headerDownload button:hover {
-    background-color: var(--second);
+    background-color: var(--background-element);
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      justify-content: space-between;
+      align-items: center;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .headerLogo {
+      margin-bottom: 10px;
+    }
+  
+    
+    .headerNav {
+      display: none;
+    }
+  
+    .headerDownload {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+  
+    .headerDownload button {
+      margin: 0;
+    }
   }
   
